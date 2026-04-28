@@ -1,0 +1,20 @@
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://picsum.photos/1600/900');
+  background-size: cover;
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: 0.3s;
+}
+
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
